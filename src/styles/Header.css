@@ -1,0 +1,77 @@
+.header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        background: white;
+        border-bottom: 1px solid #e2e8f0;
+        height: 70px;
+      }
+      
+      .logo {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #2563eb;
+      }
+      
+      .logo span {
+        color: #06b6d4;
+      }
+      
+      .search-container {
+        position: relative;
+        margin: 0 2rem;
+      }
+      
+      .search-input {
+        padding: 0.5rem 1rem 0.5rem 2.5rem;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        width: 300px;
+        font-size: 0.875rem;
+      }
+      
+      .search-icon {
+        position: absolute;
+        left: 0.75rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #64748b;
+      }
+      
+      .header-right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      
+      .notification-icon {
+        color: #64748b;
+        cursor: pointer;
+      }
+      
+      .user-profile {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      
+      .user-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+      }
+      
+      .user-name {
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+      
+      .add-button {
+        background: #06b6d4;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        cursor: pointer;
+      }
