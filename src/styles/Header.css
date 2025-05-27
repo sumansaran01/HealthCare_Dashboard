@@ -4,7 +4,8 @@
         justify-content: space-between;
         padding: 1rem 2rem;
         background: white;
-        border-bottom: 1px solid #e2e8f0;
+        border-bottom: 1px solid white;
+        box-shadow: 0 1px 3px whitesmoke;
         height: 70px;
       }
       
@@ -27,8 +28,9 @@
         padding: 0.5rem 1rem 0.5rem 2.5rem;
         border: 1px solid #e2e8f0;
         border-radius: 0.5rem;
-        width: 300px;
+        width: 400px;
         font-size: 0.875rem;
+
       }
       
       .search-icon {
@@ -44,10 +46,19 @@
         align-items: center;
         gap: 1rem;
       }
+      .header-left {
+        display: flex;
+        align-items: center;
+        gap: 8rem;
+      }
       
       .notification-icon {
-        color: #64748b;
+        color: #0653b8;
         cursor: pointer;
+        position: absolute;
+        right: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
       }
       
       .user-profile {

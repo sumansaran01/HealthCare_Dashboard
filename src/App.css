@@ -1,7 +1,3 @@
-.app-body {
-        display: flex;
-        min-height: calc(100vh - 70px);
-      }
 
 .app-container{
   width: 100%;
@@ -9,6 +5,7 @@
 }
 .main-layout{
   width: 100%;
+  height: 89%;
   display: flex;
 }
 
@@ -35,9 +32,6 @@
       }
       
       @media (max-width: 768px) {
-        .app-body {
-          flex-direction: column;
-        }
         
         .sidebar {
           width: 100%;

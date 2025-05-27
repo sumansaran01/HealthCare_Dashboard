@@ -1,81 +1,51 @@
- .dashboard-main {
-        flex: 1;
-        padding: 2rem;
-        overflow-y: auto;
-      }
-      
-      .dashboard-header {
-        margin-bottom: 2rem;
-      }
-      
-      .dashboard-header h2 {
-        font-size: 1.875rem;
-        font-weight: 600;
-        color: #1e293b;
-        margin-bottom: 0.25rem;
-      }
-      
-      .week-info {
-        color: #64748b;
-        font-size: 0.875rem;
-      }
-      
-      .dashboard-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        height: calc(100vh - 200px);
-      }
-      .left-column-content{
-        display:flex;
-        justify-content: space-between;
-      }
-      /* Anatomy Section */
-      .anatomy-section {
-        background: white;
-        border-radius: 1rem;
-        padding: 1.5rem;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        position: relative;
-      }
-      
-      .anatomy-container {
-        position: relative;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .anatomy-image img {
-        width: 150px;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 0.5rem;
-      }
-      
-      .health-indicator {
-        position: absolute;
-        background: white;
-        padding: 0.5rem 0.75rem;
-        border-radius: 1rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        font-size: 0.75rem;
-        font-weight: 500;
-      }
-      
-      .healthy-heart {
-        top: 20%;
-        left: 60%;
-        color: #10b981;
-      }
-      
-      .healthy-log {
-        bottom: 30%;
-        left: 10%;
-        background: #06b6d4;
-        color: white;
-      }
+.dashboard-main {
+  flex: 1;
+  padding: 0.5rem;
+  overflow-y: auto;
+}
+
+.dashboard-header {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header-actions{
+  margin-bottom: 0.5rem;
+  margin-right: 50%;
+  align-items: center;
+  display: flex;
+}
+
+.dashboard-header h2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #031962c1;
+  margin-bottom: 0.25rem;
+  margin-left: 1.5rem; 
+}
+
+.week-info {
+  margin-top: 0.875rem;
+  margin-right: 53%; 
+  color: #39265471; /*Change the color summuu*/
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.dropdown-icon{
+  width: 0.6rem;
+  color: #39265471; 
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  height: calc(100vh - 200px);
+}
+.left-column-content{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}

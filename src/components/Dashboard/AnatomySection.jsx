@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHeart, FaLungs, FaTooth, FaBone } from 'react-icons/fa';
 import '../../styles/AnatomySection.css';
-import humanBodyImg from '../../assets/humanbody-placeholder.jpg'; // use a placeholder image
+import humanBodyImg from '../../assets/humanbody-placeholder.png'; // use a placeholder image
 
 const AnatomySection = () => (
   <div className="anatomy-section">

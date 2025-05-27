@@ -6,6 +6,7 @@ import HealthStatusCards from "./HealthStatusCards";
 import CalendarView from './CalendarView';
 import UpcomingSchedule from './UpcomingSchedule';
 import ActivityFeed from './ActivityFeed';
+import { TfiAngleDown} from "react-icons/tfi";
 
 import '../../styles/DashboardMainContent.css'; 
 
@@ -13,7 +14,10 @@ const DashboardMainContent = () => (
   <main className="dashboard-main">
     <div className="dashboard-header">
       <h2>Dashboard</h2>
-      <p className="week-info">This Week</p>
+      <div className="week-info">
+        <p>This Week</p>
+        <TfiAngleDown className="dropdown-icon" />
+      </div>
     </div>
     
     <div className="dashboard-grid">
@@ -24,9 +28,7 @@ const DashboardMainContent = () => (
         </div>
         <ActivityFeed />
       </div>
-      
-      {/* <div className="center-column">
-      </div> */}
+
       
       <div className="right-column">
         <CalendarView />

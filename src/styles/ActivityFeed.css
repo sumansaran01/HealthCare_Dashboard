@@ -1,28 +1,43 @@
 .activity-section {
         background: white;
         border-radius: 1rem;
-        padding: 1.5rem;
+        padding: 0.5rem;
+        background: rgba(178, 210, 245, 0.212);
+        border: 1px solid rgba(127, 182, 246, 0.345);
+        /* margin-bottom: 0.5rem; */
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        margin-top: 2rem;
+        
+      }
+      .activity-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
       }
       
       .activity-section h3 {
         font-size: 1.125rem;
         font-weight: 600;
+      }
+      .activity-section p{
+        font-size: 0.875rem;
+        color: #64748b;
         margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
       }
       
-      .activity-summary {
+      /* .activity-summary {
         font-size: 0.875rem;
         color: #64748b;
         margin-bottom: 1.5rem;
       }
-      
+       */
       .chart-bars {
         display: flex;
         align-items: end;
         justify-content: space-between;
-        height: 100px;
+        height: 130px;
         gap: 0.5rem;
       }
       
@@ -35,12 +50,13 @@
       
       .chart-bar {
         background: linear-gradient(to top, #06b6d4, #0ea5e9);
-        width: 100%;
+        width: 50%;
         border-radius: 0.25rem 0.25rem 0 0;
-        margin-bottom: 0.5rem;
+        /* margin-bottom: 0.3rem; */
       }
       
       .chart-label {
         font-size: 0.75rem;
         color: #64748b;
+        margin: 0.5rem;
       }

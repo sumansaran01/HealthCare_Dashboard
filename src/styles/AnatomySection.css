@@ -1,63 +1,39 @@
-/* .anatomy-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
-
-.anatomy-image {
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 1rem;
-
-}
-img{
-  width: 100%;
-  height: auto;
-}
-.health-indicator {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.health-indicator {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-weight: 500;
-} */
-
 
 .anatomy-section {
-        background: white;
+        background: rgba(178, 210, 245, 0.212);
+        border: 1px solid rgba(127, 182, 246, 0.345);
         border-radius: 1rem;
         padding: 1.5rem;
+        margin-left: 3.8rem;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         position: relative;
+        height: 430px;
+        width: 250px;
       }
       
       .anatomy-container {
         position: relative;
-        height: 300px;
+        /* height: 300px; */
         display: flex;
         justify-content: center;
         align-items: center;
       }
       
       .anatomy-image img {
-        width: 150px;
-        height: 250px;
+        margin-top: 1rem;
+        width: auto;
+        height: 350px;
         object-fit: contain;
-        /* border-radius: 0.5rem; */
+        border-radius: 0.5rem;
       }
       
       .health-indicator {
         position: absolute;
-        background: white;
-        padding: 0.5rem 0.75rem;
-        border-radius: 1rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        background: #031962e6;
+        border-color: #041038e6;
+        padding: 0 0.75rem;
+        border-radius: 0.75rem;
+        box-shadow: 0 2px 8px rgba(35, 34, 34, 0.107);
         display: flex;
         align-items: center;
         gap: 0.5rem;
@@ -66,14 +42,20 @@ img{
       }
       
       .healthy-heart {
-        top: 20%;
-        left: 60%;
-        color: #10b981;
+        width: 60%;
+        top: 23%;
+        left: 70%;
+        color:red;
+      }
+      .healthy-heart
+      span{
+        margin-bottom: 0.5rem;
       }
       
       .healthy-log {
-        bottom: 30%;
-        left: 10%;
+        width: 60%;
+        bottom: 23%;
+        left: -30%;
         background: #06b6d4;
         color: white;
       }

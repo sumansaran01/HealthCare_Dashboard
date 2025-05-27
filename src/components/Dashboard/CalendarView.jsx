@@ -1,20 +1,6 @@
 import React from 'react';
 import '../../styles/CalendarView.css';
-import calendarData from '../../data/calendarData.js'; // Assuming you have a calendarData.js file with the required data
-//import SimpleAppointmentCard from './SimpleAppointmentCard'; // Assuming you have a SimpleAppointmentCard component
-
-const appointmentCards = [
-  {
-    title: 'Dentist Appointment',
-    time: '11:00 AM',
-    date: 'October 3',
-  },
-  {
-    title: 'Physiotherapy Appointment',
-    time: '13:00 PM',
-    date: 'October 5',
-  },
-];
+import calendarData from '../../data/calendarData.js'; 
 
 const CalendarView = () => (
   <div className="calendar-section">

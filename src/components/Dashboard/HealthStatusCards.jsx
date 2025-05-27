@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaLungs, FaTooth, FaBone } from 'react-icons/fa';
 import '../../styles/HealthStatusCards.css';
 import healthStatusData from '../../data/heathIndicators.js';
+import {TfiArrowRight} from "react-icons/tfi";
 
 const HealthStatusCards = () => (
   <div className="health-status-cards">
@@ -19,7 +19,10 @@ const HealthStatusCards = () => (
         </div>
       </div>
     ))}
-      <span>details</span>
+    <div className='more-health-card'>
+      <span>Details</span>
+      <TfiArrowRight className="health-status-arrow" />
+    </div>
   </div>
 );
 

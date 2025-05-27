@@ -1,20 +1,12 @@
 import React from 'react';
 import '../../styles/ActivityFeed.css';
 
-const barData = [
-  { day: 'Mon', value: 1 },
-  { day: 'Tue', value: 2 },
-  { day: 'Wed', value: 1 },
-  { day: 'Thu', value: 3 },
-  { day: 'Fri', value: 2 },
-  { day: 'Sat', value: 0 },
-  { day: 'Sun', value: 1 },
-];
-
 const ActivityFeed = () => (
-  <div className="activity-section">
-    <h3>Activity</h3>
-    <p className="activity-summary">3 appointments on this week</p>
+  <div className="activity-section"> 
+    <div className="activity-header">
+      <h3>Activity</h3>
+      <p className="activity-summary">3 appointments on this week</p>
+    </div>
     <div className="activity-chart">
       <div className="chart-bars">
         {['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'].map((day, index) => (

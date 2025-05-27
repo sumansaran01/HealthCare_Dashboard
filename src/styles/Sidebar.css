@@ -1,48 +1,66 @@
-     .sidebar {
-        width: 250px;
-        background: white;
-        padding: 1.5rem;
-        border-right: 1px solid #e2e8f0;
-      }
-      
-      .sidebar-title {
-        color: #64748b;
-        font-size: 0.75rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        margin-bottom: 1rem;
-      }
-      
-      .nav-item {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        padding: 0.75rem;
-        margin-bottom: 0.25rem;
-        border-radius: 0.5rem;
-        cursor: pointer;
-        transition: background-color 0.2s;
-      }
-      
-      .nav-item:hover {
-        background: #f1f5f9;
-      }
-      
-      .nav-item.active {
-        background: #dbeafe;
-        color: #2563eb;
-      }
-      
-      .nav-icon {
-        color: #64748b;
-      }
-      
-      .nav-item.active .nav-icon {
-        color: #2563eb;
-      }
-      
-      .nav-label {
-        font-size: 0.875rem;
-        font-weight: 500;
-      }
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background:rgba(152, 192, 238, 0.255);
+  padding: 1.5rem;
+  border: 1px solid rgba(127, 182, 246, 0.345);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+  color: #64748b;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 1rem 0 0 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.3rem 0.75rem;
+  margin-bottom: 0.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.nav-item:hover {
+  background: #f1f5f9;
+}
+
+.nav-item.active {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.nav-icon {
+  color: #64748b;
+}
+
+.nav-item.active .nav-icon {
+  color: #031962c1;
+}
+.nav-item.active .nav-icon rect {
+  fill: #031962c1;
+}
+
+.nav-item.active .nav-icon rect:first-child {
+  fill: white;
+}
+.nav-item.active .nav-label {
+  color:#031962c1;
+  font-weight: 600;
+}
+
+.nav-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.settings-section {
+  margin-top: 1rem; /* Adjust this value to control the amount of space */
+  padding-top: 20px;
+  border-top: 1px solid rgba(229, 231, 235, 0.5); /* Optional: adds a subtle divider */
+}
