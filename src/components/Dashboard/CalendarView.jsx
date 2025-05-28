@@ -32,20 +32,20 @@ const CalendarView = () => (
     </div>
     <div className="appointment-cards">
       <div className="appointment-card dentist">
-        <div className="appointment-icon">🦷</div>
         <div className="appointment-details">
           <h4>Dentist</h4>
           <p>09:00-11:00</p>
           <small>Dr Cameron Williamson</small>
         </div>
+        <div className="appointment-icon">🦷</div>
       </div>
       <div className="appointment-card physiotherapy">
-        <div className="appointment-icon">💪</div>
         <div className="appointment-details">
           <h4>Physiotherapy Appointment</h4>
           <p>11:00-12:00</p>
           <small>Dr Kevin Djorgs</small>
         </div>
+        <div className="appointment-icon">💪</div>
       </div>
     </div>
   </div>
